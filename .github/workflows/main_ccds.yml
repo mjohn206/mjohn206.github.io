@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'CCDS'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_66AC3A8846E24FB3B94FD75DE9C90A4B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_880EEFBF67794608813463BC74920DE4 }}
           package: .
