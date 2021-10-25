@@ -1,0 +1,122 @@
+
+img
+{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height:500px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /*Span image accross page.*/
+}
+
+body
+{
+    background-color: rgb(182, 182, 212);
+}
+
+.info
+{
+    background-color: rgb(80, 112, 149); 
+    color: rgb(255, 255, 255);
+    margin-left: 1.5%;
+}
+
+.navBar
+{
+   overflow: hidden;
+   background-color: darkturquoise; 
+}
+
+.navBar a
+{
+   float: left;
+   color:rgb(255, 255, 255);
+   text-align: center;
+   padding: 20px 25px;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.navBar #nav:hover
+{
+    background-color: rgb(30, 60, 197);
+    color: blanchedalmond;
+}
+
+.navBar a.active
+{
+   background-color: lawngreen;
+   color: midnightblue;
+}
+
+.sidenav a
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover
+{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#info
+{
+    float: left;
+    width: 50%;
+}
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+   
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+    background-color: rgb(94, 135, 211);
+}
+/*#extraPage:hover
+{
+    background-color: red;
+}
+#dropdown
+{
+   
+}
+#content
+{
+    display: inline-block;
+    position: absolute;
+    
+}
+#content a
+{
+   padding: 12px 16px;
+    display: block;
+}
+
+#content a:hover
+{
+    background-color: red;
+}*/
